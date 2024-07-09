@@ -31,7 +31,7 @@ function App() {
       <div className="bg">
         <video
           ref={videoRef}
-          src="http://joschkazimdars.com/videos/portfolio_background.mp4"
+          src="https://joschkazimdars.com/videos/portfolio_background.mp4"
           autoPlay={true}
           muted={true}
           loop
