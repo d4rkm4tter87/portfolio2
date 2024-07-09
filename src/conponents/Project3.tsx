@@ -1,14 +1,12 @@
-import { Center, Heading, Text, Image, HStack, Link } from "@chakra-ui/react";
+import { Center, Text, Image, HStack, Link } from "@chakra-ui/react";
 import preview1 from "../assets/golv1.png";
 import preview2 from "../assets/golv2.png";
 
 const Project3 = () => {
   return (
     <div>
-      <Center>
-        <Heading size="lg" padding="2px">
-          Go in Bremen
-        </Heading>
+      <Center fontSize="2xl" className="mirror2" paddingBottom="10px">
+        Go in Bremen
       </Center>
       <Center>
         <Link href="https://go-lv-bremen.de/" isExternal>

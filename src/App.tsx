@@ -1,6 +1,6 @@
-import { Button, Grid, GridItem, HStack } from "@chakra-ui/react";
+import { Grid, GridItem, HStack } from "@chakra-ui/react";
 import ProjectGrid from "./conponents/ProjectGrid";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import Nav from "./conponents/Nav";
 import { Route, Routes } from "react-router-dom";
 import Home from "./conponents/Home";
@@ -21,19 +21,17 @@ import usImg from "./assets/american_flag.png";
 import usImg2 from "./assets/american_flag_active.png";
 
 function App() {
-  const videoRef = useRef();
+  const videoRef = useRef(null);
   const [gerFlag, setGerFlag] = useState(false);
   const [usFlag, setUsFlag] = useState(false);
-  useEffect(() => {
-    videoRef.current.playbackRate = 0.3;
-  }, [videoRef]);
+
   return (
     <>
       <div id="magic"></div>
       <div className="bg">
         <video
           ref={videoRef}
-          src="http://joschkazimdars.com/videos/4K_2(1).mp4"
+          src="http://joschkazimdars.com/videos/portfolio_background.mp4"
           autoPlay={true}
           muted={true}
           loop
@@ -69,27 +67,26 @@ function App() {
             </GridItem>
             <GridItem area="main">
               <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="projects" element={<ProjectGrid />} />
-                <Route path="code" element={<Aktuelles />} />
-                <Route path="aktuelles" element={<Aktuelles />} />
-                <Route path="projects/tsumego-hero" element={<Project1 />} />
-                <Route path="projects/trailers4u" element={<Project2 />} />
-                <Route path="projects/go-bremen" element={<Project3 />} />
+                <Route path="/" element={<ProjectGrid />} />
+                <Route path="/recently" element={<Aktuelles />} />
+                <Route path="/about" element={<Home />} />
+                <Route path="/projects/tsumego-hero" element={<Project1 />} />
+                <Route path="/projects/trailers4u" element={<Project2 />} />
+                <Route path="/projects/go-bremen" element={<Project3 />} />
                 <Route
-                  path="projects/petersen-hardraht-pruggmayer"
+                  path="/projects/petersen-hardraht-pruggmayer"
                   element={<Project4 />}
                 />
-                <Route path="projects/betaville-ny" element={<Project5 />} />
+                <Route path="/projects/betaville-ny" element={<Project5 />} />
                 <Route
-                  path="projects/betaville-bremen"
+                  path="/projects/betaville-bremen"
                   element={<Project6 />}
                 />
-                <Route path="projects/city-dating" element={<Project7 />} />
-                <Route path="projects/airlift" element={<Project8 />} />
-                <Route path="projects/staiker-equity" element={<Project9 />} />
+                <Route path="/projects/city-dating" element={<Project7 />} />
+                <Route path="/projects/airlift" element={<Project8 />} />
+                <Route path="/projects/staiker-equity" element={<Project9 />} />
                 <Route
-                  path="projects/staiker-reviews"
+                  path="/projects/staiker-reviews"
                   element={<Project10 />}
                 />
 

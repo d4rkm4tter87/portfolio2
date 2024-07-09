@@ -43,7 +43,7 @@ export default [
     id: 5,
     name: "City Dating",
     img: "http://joschkazimdars.com/logos/city-dating.png",
-    code: ["Joomla", "MySQL-Datenbank", "JavaScript", "PHP"],
+    code: ["Joomla", "MySQL-Datenbank", "JavaScript", "PHP", "Git"],
     link: "city-dating",
   },
   {

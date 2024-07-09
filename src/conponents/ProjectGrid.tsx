@@ -4,7 +4,6 @@ import {
   Card,
   CardBody,
   CardHeader,
-  Heading,
   SimpleGrid,
   Image,
   Center,
@@ -15,9 +14,10 @@ import { NavLink } from "react-router-dom";
 const ProjectGrid = () => {
   return (
     <>
-      <Center fontSize="xl" fontWeight="bold">
+      <Center fontSize="2xl" className="mirror2">
         Ausgewählte Projekte
       </Center>
+      <br />
       <SimpleGrid
         columns={{ sm: 2, md: 2, lg: 5, xl: 5 }}
         padding="10px"
@@ -49,7 +49,7 @@ const ProjectGrid = () => {
                                 : "100%"
                             }
                           />
-                          <span className="tooltiptext2 tsumegoHeroTooltip">
+                          <span className={projectTooltipClass(project.name)}>
                             {projectTooltip(project.name)}
                           </span>
                         </div>
@@ -108,7 +108,7 @@ const projectTooltip = (c: string) => {
     case "Airlift-Reaktoren":
       return "Im Rahmen meiner Bachelor-Thesis wurde eine Auswerteroutine für Airlift-Reaktoren für das IUV-Bremen entwickelt. Airlift-Reaktoren untersuchen das Verhalten von Stoffen unter bestimmten Bedingungen wie z.B. Mischverhältnisse und Temparaturen.";
     case "City Dating":
-      return "Dies ise eine Webseite zum Vereinbaren von Treffen und Bekanntgeben von Events.";
+      return "Dies ist eine Webseite zum Vereinbaren von Treffen und Bekanntgeben von Events.";
     case "Betaville New York":
       return "Dies ist ein Open Source Projekt, in dem neue Ideen in den Bereichen Städteplanung, Architektur und öffentlicher Kunst in einer gemeinsamen Platform umgesetzt werden können.";
     case "Betaville Bremen":
@@ -125,27 +125,27 @@ const projectTooltip = (c: string) => {
 const projectTooltipClass = (c: string) => {
   switch (c) {
     case "Tsumego Hero":
-      return "Eine Webseite mit über 11.000 Puzzles zu dem Brettspiel Go.";
+      return "tooltiptext2 tsumegoHeroTooltip";
     case "Trailers4u":
-      return "Eine Webseite zum Anschauen von Film-Trailern.";
+      return "tooltiptext2 trailers4uTooltip";
     case "Go in Bremen":
-      return "Die offizielle Webseite des Bremer Go-Vereins.";
+      return "tooltiptext2 goInBremenTooltip";
     case "Petersen Hardraht Pruggmayer":
-      return "Die Webseite einer Anwaltskanzlei mit Standorten in Chemnitz, Dresden und Leipzig.";
+      return "tooltiptext2 petersenHardrahtPruggmayerTooltip";
     case "Airlift-Reaktoren":
-      return "Im Rahmen meiner Bachelor-Thesis wurde eine Auswerteroutine für Airlift-Reaktoren für das IUV-Bremen entwickelt. Airlift-Reaktoren untersuchen das Verhalten von Stoffen unter bestimmten Bedingungen wie z.B. Mischverhältnisse und Temparaturen.";
+      return "tooltiptext2 airliftTooltip";
     case "City Dating":
-      return "Dies ise eine Webseite zum Vereinbaren von Treffen und Bekanntgeben von Events.";
+      return "tooltiptext2 cityDatingTooltip";
     case "Betaville New York":
-      return "Dies ist ein Open Source Projekt, in dem neue Ideen in den Bereichen Städteplanung, Architektur und öffentlicher Kunst in einer gemeinsamen Platform umgesetzt werden können.";
+      return "tooltiptext2 betavilleNyTooltip";
     case "Betaville Bremen":
-      return "Dies ist eine Webseite auf der neue Ideen in den Bereichen Städteplanung, Architektur und öffentlicher Kunst veröffentlicht werden können. Diese Ideen können dann real mit dem Smartphone in einer Augmented Reality betrachtet werden.";
+      return "tooltiptext2 betavilleBremenTooltip";
     case "Staiker Equity Trainer":
-      return "Dies ist eine Trainings-App zum lernen von Gewinnwahrscheinlichkeiten im Poker.";
+      return "tooltiptext2 staikerEquityTooltip";
     case "Staiker Go Rewiews":
-      return "Dies ist eine Webseite zur Dokumentation und Analyse von Partien in dem Brettspiel Go.";
+      return "tooltiptext2 staikerReviewTooltip";
     default:
-      return "tooltiptext";
+      return "tooltiptext2 tsumegoHeroTooltip";
   }
 };
 
@@ -201,7 +201,7 @@ const codeTooltipDescription = (c: string) => {
     case "React":
       return "React ist eine JavaScript-Bibliothek zur Erstellung von Benutzeroberflächen, die von Facebook entwickelt und als Open Source veröffentlicht wurde. Sie wird häufig für die Entwicklung von Single-Page-Anwendungen (SPA) und mobilen Anwendungen verwendet. React erleichtert es Entwicklern, komplexe Benutzeroberflächen zu erstellen, indem es eine komponentenbasierte Architektur und ein deklaratives Programmiermodell verwendet. Im Vergleich zu älteren Technologien, in denen imperativ programmiert wird, wird hierbei beschrieben was ausgeführt wird, aber nicht wie es ausgeführt werden soll. ";
     case "TypeScript":
-      return "TypeScript basiert auf JavaScript und wurde um eine statische Typisierung erweitert. Es ist möglich Datentypen zu definieren und zu überprüfen bevor der Code ausgeführt wird.";
+      return "TypeScript basiert auf JavaScript und wurde um eine statische Typisierung erweitert. Es ist unter anderem möglich Datentypen zu definieren und zu überprüfen bevor der Code ausgeführt wird.";
     case "Git":
       return "Git is ein verteiltes Versionskontrollsystem und erleichtert die Verwaltung von Quellcode in Softwareentwicklungsprojekten. Es hilft Entwicklern, Änderungen am Code zu verfolgen, Zusammenarbeit zu erleichtern und die Historie eines Projekts zu verwalten. ";
     case "JavaScript":

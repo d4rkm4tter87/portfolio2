@@ -1,13 +1,11 @@
-import { Center, Heading, Text, Image, HStack } from "@chakra-ui/react";
+import { Center, Text, Image, HStack } from "@chakra-ui/react";
 import preview from "../assets/betaville-ny.png";
 
 const Project5 = () => {
   return (
     <div>
-      <Center>
-        <Heading size="lg" padding="2px">
-          Betaville New York
-        </Heading>
+      <Center fontSize="2xl" className="mirror2">
+        Betaville New York
       </Center>
       <HStack marginTop="15px">
         <Text paddingX="20px" width="50%" marginBottom="auto" marginTop="7px">

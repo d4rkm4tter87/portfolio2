@@ -1,16 +1,13 @@
-import { Center, Heading, Text, Image, HStack } from "@chakra-ui/react";
+import { Center, Text, Image, HStack } from "@chakra-ui/react";
 import preview1 from "../assets/t4u1.png";
 import preview2 from "../assets/t4u2.png";
 
 const Project2 = () => {
   return (
     <div>
-      <Center>
-        <Heading size="lg" padding="2px">
-          Trailers4u
-        </Heading>
+      <Center fontSize="2xl" className="mirror2">
+        Trailers4u
       </Center>
-
       <HStack marginTop="15px">
         <Text paddingX="20px" width="50%" marginBottom="auto" marginTop="7px">
           Auf Trailers4u werden aktuelle und beliebte Trailer aufgelistet.

@@ -1,21 +1,11 @@
 import preview1 from "../assets/th1.png";
 import preview2 from "../assets/th2.png";
-import {
-  Text,
-  Image,
-  Heading,
-  Center,
-  HStack,
-  Spinner,
-  Link,
-} from "@chakra-ui/react";
+import { Text, Image, Center, HStack, Link } from "@chakra-ui/react";
 const Project1 = () => {
   return (
     <div>
-      <Center>
-        <Heading size="lg" padding="10px">
-          Tsumego Hero
-        </Heading>
+      <Center fontSize="2xl" className="mirror2" paddingBottom="10px">
+        Tsumego Hero
       </Center>
       <Center>
         <Link href="https://tsumego-hero.com/" isExternal>

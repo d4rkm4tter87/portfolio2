@@ -1,14 +1,12 @@
-import { Center, Heading, Text, Image, HStack } from "@chakra-ui/react";
+import { Center, Text, Image, HStack } from "@chakra-ui/react";
 import preview1 from "../assets/airlift1.png";
 import preview2 from "../assets/airlift2.png";
 
 const Project8 = () => {
   return (
     <div>
-      <Center>
-        <Heading size="lg" padding="2px">
-          Auswerteroutine für Airlift-Reaktoren
-        </Heading>
+      <Center fontSize="2xl" className="mirror2">
+        Auswerteroutine für Airlift-Reaktoren
       </Center>
       <HStack marginTop="15px">
         <Text paddingX="20px" width="50%" marginBottom="auto" marginTop="7px">

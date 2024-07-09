@@ -1,8 +1,4 @@
-interface Props {
-  name: string;
-}
-
-const ProjectCard = ({ name }: Props) => {
+const ProjectCard = () => {
   return <div>ProjectCard</div>;
 };
 

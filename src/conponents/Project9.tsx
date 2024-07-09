@@ -1,14 +1,12 @@
-import { Center, Heading, Text, Image, HStack, Link } from "@chakra-ui/react";
+import { Center, Text, Image, HStack, Link } from "@chakra-ui/react";
 import preview1 from "../assets/staiker-equity1.png";
 import preview2 from "../assets/staiker-equity2.png";
 
 const Project9 = () => {
   return (
     <div>
-      <Center>
-        <Heading size="lg" padding="2px">
-          Staiker Equity Trainer
-        </Heading>
+      <Center fontSize="2xl" className="mirror2" paddingBottom="10px">
+        Staiker Equity Trainer
       </Center>
       <Center>
         <Link href="http://staikerequity.com" isExternal>

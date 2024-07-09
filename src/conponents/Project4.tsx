@@ -1,14 +1,12 @@
-import { Center, Heading, Text, Image, HStack, Link } from "@chakra-ui/react";
+import { Center, Text, Image, HStack, Link } from "@chakra-ui/react";
 import preview1 from "../assets/petersen1.png";
 import preview2 from "../assets/petersen2.png";
 
 const Project4 = () => {
   return (
     <div>
-      <Center>
-        <Heading size="lg" padding="2px">
-          Petersen Hardraht Pruggmayer
-        </Heading>
+      <Center fontSize="2xl" className="mirror2" paddingBottom="10px">
+        Petersen Hardraht Pruggmayer
       </Center>
       <Center>
         <Link href="https://www.petersenhardrahtpruggmayer.de/" isExternal>
