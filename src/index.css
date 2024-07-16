@@ -53,10 +53,13 @@ body {
   margin: 14vh auto 60px;
   padding: 16px;
   width: 70%;
-  min-width: 340px;
+  min-width: 390px;
   border: 0.125em solid #b47395;
   box-shadow: inset 0 0 0.75em 0 #b47395, 0 0 0.75em 0 #b47395;
   background: rgba(45, 16, 87, 0.75);
+}
+.about-img {
+  border: 2px solid #b47395;
 }
 .project-name {
   text-align: center;
@@ -348,13 +351,16 @@ body {
 .image-gallery {
   width: 80%;
 }
-
+.gallery-container {
+  max-width: 670px;
+}
 .footer1 {
   color: #725767;
   font-size: 15px;
 }
 .footer2 {
   text-align: center;
+  margin: 12px;
 }
 
 .project-box {
@@ -399,5 +405,8 @@ body {
 @media screen and (max-width: 500px) {
   #magic2 {
     left: 22%;
+  }
+  .gallery-container {
+    width: 350px;
   }
 }

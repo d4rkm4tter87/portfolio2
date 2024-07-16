@@ -25,14 +25,24 @@ const Home = () => {
           ich meine Projekte und Tätigkeiten auf, damit man sich einen Überblick
           über mich verschaffen kann.
           <Center>
-            <Image src={preview1} padding="20px" width="50%" />
+            <Image
+              src={preview1}
+              className="about-img"
+              margin="20px"
+              width="50%"
+            />
           </Center>
           In meinen 15 Jahren als Informatiker habe ich sowohl freiberuflich,
           als auch in verschiedenen Agenturen gearbeitet. Dementsprechend ist
           die Webseite sowohl für potenzielle Kunden als auch für zukünftige
           Arbeitgeber gedacht.
           <Center>
-            <Image src={preview2} padding="20px" width="80%" />
+            <Image
+              src={preview2}
+              className="about-img"
+              margin="20px"
+              width="80%"
+            />
           </Center>
           Ich bin viel herum gekommen. Mein Studium habe ich in Bremen
           abgeschlossen, anschießend habe ich in New York, Hamburg und jetzt in
@@ -53,7 +63,12 @@ const Home = () => {
           regelmäßig ins Fitnessstudio und jogge. Außerdem gehe ich gerne
           Bouldern.
           <Center>
-            <Image src={preview3} padding="20px" width="80%" />
+            <Image
+              src={preview3}
+              className="about-img"
+              margin="20px"
+              width="80%"
+            />
           </Center>
         </Text>
       </SimpleGrid>

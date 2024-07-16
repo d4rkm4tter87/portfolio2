@@ -86,6 +86,7 @@ const Aktuelles = () => {
           maxWidth="670px"
           marginBottom="auto"
           marginTop="7px"
+          textAlign="justify"
         >
           Ich hatte schon länger den Traum, mich mit der Welt der
           Single-Page-Applications von React, Angular und Vue vertraut zu
@@ -112,7 +113,7 @@ const Aktuelles = () => {
           Um einen kleinen Einblick über meine Weiterbildenden Maßnahmen in
           diesem Jahr zu geben sind hier Zertifikate aufgelistet.
         </Text>
-        <Center maxWidth="670px">
+        <Center className="gallery-container">
           <ImageGallery
             items={images}
             showPlayButton={false}
