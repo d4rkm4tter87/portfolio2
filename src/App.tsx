@@ -28,6 +28,7 @@ function App() {
   return (
     <>
       <div id="magic"></div>
+      <div id="magic2">Joschka Zimdars - Web Developer</div>
       <div className="bg">
         <video
           ref={videoRef}
@@ -89,7 +90,6 @@ function App() {
                   path="/projects/staiker-reviews"
                   element={<Project10 />}
                 />
-
                 <Route
                   path="*"
                   element={<h1 className="not-found">Page Not Found</h1>}

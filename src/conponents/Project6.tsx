@@ -1,4 +1,4 @@
-import { Center, Text, Image, HStack } from "@chakra-ui/react";
+import { Center, Text, Image, SimpleGrid } from "@chakra-ui/react";
 import preview from "../assets/betaville-bremen.png";
 
 const Project6 = () => {
@@ -7,8 +7,17 @@ const Project6 = () => {
       <Center fontSize="2xl" className="mirror2">
         Betaville Bremen
       </Center>
-      <HStack marginTop="15px">
-        <Text paddingX="20px" width="50%" marginBottom="auto" marginTop="7px">
+      <SimpleGrid
+        columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}
+        marginTop="15px"
+        spacing={6}
+      >
+        <Text
+          paddingX="20px"
+          textAlign="justify"
+          marginBottom="auto"
+          marginTop="7px"
+        >
           Betaville in Bremen verfolgt das gleiche Ziel, wie das Projekt in New
           York. Hierbei lag der Fokus im Gegensatz zu der New York University in
           der Augmented Reality. Das bedeutet, dass der Benutzer mit einem
@@ -21,10 +30,10 @@ const Project6 = () => {
           Server-Client-Kommunikation für Smartphones zur Darstellung der
           Augmented Reality in JSON programmiert.
         </Text>
-        <Center width="50%">
+        <Center>
           <Image src={preview} padding="10px" />
         </Center>
-      </HStack>
+      </SimpleGrid>
     </div>
   );
 };

@@ -1,5 +1,7 @@
-import { Center, HStack, Text } from "@chakra-ui/react";
-
+import { Center, SimpleGrid, Text, Image } from "@chakra-ui/react";
+import preview1 from "../assets/about-img1.jpg";
+import preview2 from "../assets/about-img2.jpg";
+import preview3 from "../assets/about-img3.jpg";
 const Home = () => {
   return (
     <div>
@@ -7,43 +9,54 @@ const Home = () => {
         Über mich
       </Center>
       <br />
-      <HStack>
+      <SimpleGrid
+        columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}
+        marginTop="15px"
+        spacing={6}
+      >
         <Text
           paddingX="20px"
-          width="50%"
           maxWidth="670px"
           marginBottom="auto"
           marginTop="7px"
+          textAlign="justify"
         >
-          Dies ist die Portfolio Webseite von Joschka Zimdars, Web-Entwickler
-          aus Hannover. In meinen 15 Jahren als Informatiker habe ich sowohl in
-          verschiedenen Web Agenturen gearbeitet als auch als Freiberufler.
-          Dementsprechend ist die Webseite sowohl dafür gedacht um mir eine
-          Anfrage für die Entwicklung einer Webseite zu schicken alsauch für
-          Arbeitgeber um sich ein Bild von mir zu verschaffen. Ich bin viel
-          rumgekommen, mein Studium habe ich in Bremen abgeschlossen, ich habe
-          in New York, Hamburg und jetzt Hannover gearbeitet. Diese Webseite
-          beinhaltet eine Auswahl an Projekten die ich in den letzten 10 Jahren
-          gemacht habe. Wie in der Projektauswahl zu erkennen ist, bin ich mit
-          einer Vielzahl an Technologien vertraut.
+          Moin, ich bin Joschka Zimdars aus Hannover. Auf dieser Webseite liste
+          ich meine Projekte und Tätigkeiten auf, damit man sich einen Überblick
+          über mich verschaffen kann.
+          <Center>
+            <Image src={preview1} padding="20px" width="50%" />
+          </Center>
+          In meinen 15 Jahren als Informatiker habe ich sowohl freiberuflich,
+          als auch in verschiedenen Agenturen gearbeitet. Dementsprechend ist
+          die Webseite sowohl für potenzielle Kunden als auch für zukünftige
+          Arbeitgeber gedacht.
+          <Center>
+            <Image src={preview2} padding="20px" width="80%" />
+          </Center>
+          Ich bin viel herum gekommen. Mein Studium habe ich in Bremen
+          abgeschlossen, anschießend habe ich in New York, Hamburg und jetzt in
+          Hannover gelebt und gearbeitet.
         </Text>
         <Text
           paddingX="20px"
-          width="50%"
           maxWidth="670px"
           marginBottom="auto"
           marginTop="7px"
+          textAlign="justify"
         >
-          In der Vergangenheit habe ich mit vielen Verschiedenen auf PHP
-          basierenden Frameworks gearbeitet, wie CakePHP, Wordpress, Joomla,
-          Drupal und Symfony. Diese Technologien sind aber für einige Bereiche
-          nicht mehr zeitgemäß, sodass ich seit einem knappen Jahr hauptsächlich
-          mit React, Angular und Vue arbeite. Auch im Back-end geht der
-          Zeitgeist von auf SQL basierenden relationalen Datenbanken hinüber zu
-          JSON Datenbanken wie Firebase/Firestore oder MongoDB, mit welchen ich
-          mich in letzter Zeit auch viel beschäftigt habe.
+          Wenn ich mal nicht irgendwas programmiere betreibe ich mehrere
+          Sportarten und spiele mehrere Spiele auf Turnier-Niveau. Meine wohl
+          höchste Spielstärke habe ich in dem Brettspiel Go. Dort bin ich 1 Dan.
+          Das entspricht ungefähr den deutschen Top 100. Außerdem gehe ich
+          regelmäßig auf Poker- und Schachturniere. Sportlich gehe ich
+          regelmäßig ins Fitnessstudio und jogge. Außerdem gehe ich gerne
+          Bouldern.
+          <Center>
+            <Image src={preview3} padding="20px" width="80%" />
+          </Center>
         </Text>
-      </HStack>
+      </SimpleGrid>
     </div>
   );
 };

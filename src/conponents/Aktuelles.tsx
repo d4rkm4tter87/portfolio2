@@ -1,4 +1,4 @@
-import { Center, HStack, Text } from "@chakra-ui/react";
+import { Center, SimpleGrid, Text } from "@chakra-ui/react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
@@ -76,10 +76,13 @@ const Aktuelles = () => {
         Aktuelles: Weiterbildungen in 2024
       </Center>
       <br />
-      <HStack>
+      <SimpleGrid
+        columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}
+        marginTop="15px"
+        spacing={6}
+      >
         <Text
           paddingX="20px"
-          width="50%"
           maxWidth="670px"
           marginBottom="auto"
           marginTop="7px"
@@ -109,7 +112,7 @@ const Aktuelles = () => {
           Um einen kleinen Einblick über meine Weiterbildenden Maßnahmen in
           diesem Jahr zu geben sind hier Zertifikate aufgelistet.
         </Text>
-        <Center width="50%" maxWidth="670px">
+        <Center maxWidth="670px">
           <ImageGallery
             items={images}
             showPlayButton={false}
@@ -117,7 +120,7 @@ const Aktuelles = () => {
             showIndex={true}
           />
         </Center>
-      </HStack>
+      </SimpleGrid>
     </div>
   );
 };

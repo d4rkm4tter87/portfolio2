@@ -19,7 +19,7 @@ const ProjectGrid = () => {
       </Center>
       <br />
       <SimpleGrid
-        columns={{ sm: 2, md: 2, lg: 5, xl: 5 }}
+        columns={{ sm: 2, md: 2, lg: 3, xl: 5 }}
         padding="10px"
         spacing={6}
       >

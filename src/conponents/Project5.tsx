@@ -1,4 +1,4 @@
-import { Center, Text, Image, HStack } from "@chakra-ui/react";
+import { Center, Text, Image, SimpleGrid } from "@chakra-ui/react";
 import preview from "../assets/betaville-ny.png";
 
 const Project5 = () => {
@@ -7,8 +7,17 @@ const Project5 = () => {
       <Center fontSize="2xl" className="mirror2">
         Betaville New York
       </Center>
-      <HStack marginTop="15px">
-        <Text paddingX="20px" width="50%" marginBottom="auto" marginTop="7px">
+      <SimpleGrid
+        columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}
+        marginTop="15px"
+        spacing={6}
+      >
+        <Text
+          textAlign="justify"
+          paddingX="20px"
+          marginBottom="auto"
+          marginTop="7px"
+        >
           Betaville ist ein Open Source Projekt, in dem neue Ideen in den
           Bereichen Städtepla- nung, Architektur und öffentlicher Kunst in einer
           gemeinsamen Platform umgesetzt werden können. Dies geschieht über eine
@@ -25,10 +34,10 @@ const Project5 = () => {
           oder einer anderen Entwicklungsumgebung erstellt und es anschließend
           in Betaville hochlädt.
         </Text>
-        <Center width="50%">
+        <Center>
           <Image src={preview} padding="10px" />
         </Center>
-      </HStack>
+      </SimpleGrid>
     </div>
   );
 };
