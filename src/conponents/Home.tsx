@@ -21,8 +21,8 @@ const Home = () => {
           marginTop="7px"
           textAlign="justify"
         >
-          Moin, ich bin Joschka Zimdars aus Hannover. Auf dieser Webseite liste
-          ich meine Projekte und Tätigkeiten auf, damit man sich einen Überblick
+          Hi :3 ich bin Joschka aus Hannover. Auf dieser Webseite liste ich
+          meine Projekte und Tätigkeiten auf, damit man sich einen Überblick
           über mich verschaffen kann.
           <Center>
             <Image
