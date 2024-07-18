@@ -1,12 +1,17 @@
-import { Center, Text, Image, SimpleGrid } from "@chakra-ui/react";
+import { Center, Text, Image, SimpleGrid, Link } from "@chakra-ui/react";
 import preview1 from "../assets/t4u1.png";
 import preview2 from "../assets/t4u2.png";
 
 const Project2 = () => {
   return (
     <div>
-      <Center fontSize="2xl" className="mirror2">
+      <Center fontSize="2xl" className="mirror2" paddingBottom="10px">
         Trailers4u
+      </Center>
+      <Center>
+        <Link href="https://movietrailers4u.netlify.app/" isExternal>
+          movietrailers4u.netlify.app
+        </Link>
       </Center>
       <SimpleGrid
         columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}
