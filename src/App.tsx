@@ -1,6 +1,6 @@
 import { Grid, GridItem, HStack } from "@chakra-ui/react";
 import ProjectGrid from "./conponents/ProjectGrid";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import Nav from "./conponents/Nav";
 import { Route, Routes } from "react-router-dom";
 import Home from "./conponents/Home";
@@ -21,7 +21,6 @@ import usImg from "./assets/american_flag.png";
 import usImg2 from "./assets/american_flag_active.png";
 
 function App() {
-  const videoRef = useRef(null);
   const [gerFlag, setGerFlag] = useState(false);
   const [usFlag, setUsFlag] = useState(false);
 
