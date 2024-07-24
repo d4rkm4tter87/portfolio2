@@ -163,7 +163,7 @@ const codeTooltipClass = (c: string) => {
       return "tooltiptext jsTooltip";
     case "JavaScript- und CSS-Bibliotheken":
       return "tooltiptext jsTooltip";
-    case "MySQL-Datenbank":
+    case "MySQL":
       return "tooltiptext mysqlTooltip";
     case "Firebase":
       return "tooltiptext firebaseTooltip";
@@ -208,7 +208,7 @@ const codeTooltipDescription = (c: string) => {
       return "JavaScript ist eine vielseitige und weit verbreitete Programmiersprache, die hauptsächlich verwendet wird, um interaktive und dynamische Inhalte auf Websiten zu erstellen. ";
     case "JavaScript- und CSS-Bibliotheken":
       return "JavaScript ist eine vielseitige und weit verbreitete Programmiersprache, die hauptsächlich verwendet wird, um interaktive und dynamische Inhalte auf Websiten zu erstellen. ";
-    case "MySQL-Datenbank":
+    case "MySQL":
       return "Eine MySQL-Datenbank ist ein relationales Datenbankmanagementsystem, das auf der Structured Query Language (SQL) basiert. MySQL ein mächtiges und vielseitiges Werkzeug zur Verwaltung und Organisation von Daten, das in einer Vielzahl von Anwendungen und Branchen eingesetzt wird. ";
     case "Firebase":
       return "Firebase ist eine Plattform für die Entwicklung mobiler und Webanwendungen, die von Google bereitgestellt wird. Sie bietet eine Vielzahl von Tools und Diensten, die Entwicklern helfen, hochwertige Apps zu erstellen, die Benutzerbasis zu vergrößern und den Umsatz zu steigern. Firebase bietet Backend-Services, Echtzeit-Datenbanken, Authentifizierung und vieles mehr. Firebase wird häufig verwendet, um die Entwicklungszeit zu verkürzen und die Skalierbarkeit von Anwendungen zu verbessern. Es ist besonders nützlich für die Erstellung von Prototypen und MVPs (Minimum Viable Products), da es eine Vielzahl von Funktionen direkt nach der Integration bietet. ";

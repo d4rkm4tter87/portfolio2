@@ -34,7 +34,7 @@ const Home = () => {
           </Center>
           In meinen 15 Jahren als Informatiker habe ich sowohl freiberuflich,
           als auch in verschiedenen Agenturen gearbeitet. Dementsprechend ist
-          die Webseite sowohl für potenzielle Kunden als auch für zukünftige
+          diese Webseite sowohl für potenzielle Kunden als auch für zukünftige
           Arbeitgeber gedacht.
           <Center>
             <Image

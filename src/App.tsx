@@ -29,15 +29,7 @@ function App() {
     <>
       <div id="magic"></div>
       <div id="magic2">Joschka Zimdars - Web Developer</div>
-      <div className="bg">
-        <video
-          ref={videoRef}
-          src="https://joschkazimdars.com/videos/portfolio_background.mp4"
-          autoPlay={true}
-          muted={true}
-          loop
-        />
-      </div>
+      <div className="bg"></div>
       <div className="background">
         <div className="language">
           <HStack>

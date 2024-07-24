@@ -9,13 +9,14 @@ body {
 .chakra-ui-dark {
   background: linear-gradient(#11061e, #130a25);
 }
-.bg {
+#root {
   width: 100vw;
-  height: 100vh;
-  z-index: -11;
-  position: absolute;
-  display: flex;
-  place-items: center;
+  min-height: 100vh;
+  background-image: url("https://joschkazimdars.com/img/bg1.gif") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 2;
 }
 .background {
   width: 100vw;
@@ -27,7 +28,7 @@ body {
   display: block;
   top: 0;
   left: 0;
-  z-index: -10;
+  z-index: -1;
   opacity: 0.3;
 }
 #magic2 {
@@ -108,7 +109,7 @@ body {
 .Git {
   color: #8957e5;
 }
-.MySQL-Datenbank {
+.MySQL {
   color: #f29111;
 }
 .MathML {
@@ -350,6 +351,7 @@ body {
 
 .image-gallery {
   width: 80%;
+  margin-bottom: auto;
 }
 .gallery-container {
   max-width: 670px;
