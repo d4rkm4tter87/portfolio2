@@ -31,8 +31,8 @@ const Project10 = () => {
           sie nicht bemerken. Diese Anwendung ist konzipiert, um Einblicke und
           Erkenntnisse zu gewinnen und bietet dafür alle nötigen Werkzeuge. Es
           können Partien hochgeladen und kommentiert werden. Dadurch kann der
-          Spieler seine eigenen Erkenntnisse gewinnen und außerdem durch die
-          Kommentare anderer Spieler die Erkenntnisse vertiefen.
+          Spieler seine Wissen erweitern und außerdem durch die Kommentare
+          anderer Spieler die Erkenntnisse vertiefen.
         </Text>
         <Text
           textAlign="justify"
@@ -43,10 +43,10 @@ const Project10 = () => {
           Des Weiteren können aus den dokumentierten Partien Multiple-Choice
           Probleme erstellt und automatisch generiert werden. Somit können alle
           Spieler das gelernte Wissen abfragen und verfestigen. Dies war der
-          Vorgänger von Tsumego Hero. Durch das Verwalten dieser Webseite hat
-          sich für mich herauskristallisiert was wirklich wichtig ist in dem
-          Präsentieren von Go-relevanten Inhalten, sodass ich diese Tätigkeit
-          viele Jahre als Nebentätigkeit ausgeübt habe.
+          Vorgänger von Tsumego Hero. Durch das Verwalten dieser Webseite wurde
+          mir klar was wirklich wichtig ist in dem Präsentieren von
+          Go-relevanten Inhalten, sodass ich diese Tätigkeit viele Jahre als
+          Nebentätigkeit ausgeübt habe.
         </Text>
       </SimpleGrid>
       <SimpleGrid

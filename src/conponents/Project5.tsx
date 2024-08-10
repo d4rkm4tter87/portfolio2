@@ -19,9 +19,9 @@ const Project5 = () => {
           marginTop="7px"
         >
           Betaville ist ein Open Source Projekt, in dem neue Ideen in den
-          Bereichen Städtepla- nung, Architektur und öffentlicher Kunst in einer
+          Bereichen Städteplanung, Architektur und öffentlicher Kunst in einer
           gemeinsamen Platform umgesetzt werden können. Dies geschieht über eine
-          virtuelle Welt, in der Städte nachgebaut wer- den und anschließend um
+          virtuelle Welt, in der Städte nachgebaut werden und anschließend um
           Ideen der Benutzer erweitert werden können.
           <br />
           <br />
@@ -30,9 +30,9 @@ const Project5 = () => {
           hochgeladen hat. Die Idee ist, eine Art Hafenanlage in dem unteren
           Bereich Manhattans zu bauen. Der Vorschlag kann neben den
           dargestellten real existieren Gebäuden betrachtet werden. Zur Zeit
-          sieht der Vorgang so aus, dass der Be- nutzer ein 3D Modell in Maya
-          oder einer anderen Entwicklungsumgebung erstellt und es anschließend
-          in Betaville hochlädt.
+          sieht der Vorgang so aus, dass der Benutzer ein 3D Modell in Maya oder
+          einer anderen Entwicklungsumgebung erstellt und es anschließend in
+          Betaville hochlädt.
         </Text>
         <Center>
           <Image src={preview} padding="10px" />

@@ -28,10 +28,8 @@ const Project1 = () => {
           tot zu verändern. Tsumego Hero ist die meistbesuchte Webseite Europas
           in diesem Gebiet. Über einen Zeitraum von inzwischen 6 Jahren habe ich
           zusammen mit einer großen Community diese Webseite stetig um Inhalte
-          und Funktionen erweitert. Tsumego Hero bietet inzwischen über
-          elftausend dieser Probleme an. Der Ansatz Go Rätsel mit Gaming
-          Komponenten zu kombinieren war ein weltweiter Vorreiter in diesem
-          Gebiet und die Ideen der Webseite wurden oft kopiert.
+          und Funktionen erweitert. Tsumego Hero bietet inzwischen über 11.000
+          dieser Probleme an.
         </Text>
         <Text
           textAlign="justify"
@@ -39,12 +37,14 @@ const Project1 = () => {
           marginBottom="auto"
           marginTop="7px"
         >
-          Das Lösen der Probleme vermittelt den Nutzern eine unvergessliche
-          Erfahrung durch ein Level-System welches Fähigkeiten freischaltet
-          (Hero Powers), ein Rating System zum vergleich der Spielstärke mit
-          anderen Nutzern, Lösen auf Zeit, Erfolgssystem (Achievements),
-          Möglichkeit eigene Probleme zu veröffentlichen und ein
-          Diskussionsforum.
+          Der Ansatz, Go Rätsel mit Gaming-Komponenten zu kombinieren war ein
+          weltweiter Vorreiter in diesem Gebiet und meine hier umgesetzten Ideen
+          wurden oft kopiert. Das Lösen der Probleme vermittelt dadurch den
+          Nutzern eine unvergessliche Erfahrung durch ein Level-System welches
+          Fähigkeiten freischaltet (Hero Powers), ein Rating System zum
+          vergleich der Spielstärke mit anderen Nutzern, Lösen auf Zeit,
+          Erfolgssystem (Achievements), die Möglichkeit eigene Probleme zu
+          veröffentlichen und ein Diskussionsforum.
         </Text>
       </SimpleGrid>
       <SimpleGrid

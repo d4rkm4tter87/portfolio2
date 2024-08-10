@@ -21,29 +21,29 @@ const Home = () => {
           marginTop="7px"
           textAlign="justify"
         >
-          Hi :3 ich bin Joschka aus Hannover. Auf dieser Webseite liste ich
+          <Image
+            src={preview1}
+            className="about-img"
+            margin="20px"
+            width="40%"
+          />
+          Hi 🤠 ich bin Joschka aus Hannover. Auf dieser Webseite liste ich
           meine Projekte und Tätigkeiten auf, damit man sich einen Überblick
           über mich verschaffen kann.
-          <Center>
-            <Image
-              src={preview1}
-              className="about-img"
-              margin="20px"
-              width="50%"
-            />
-          </Center>
+          <br />
+          <br />
           In meinen 15 Jahren als Informatiker habe ich sowohl freiberuflich,
           als auch in verschiedenen Agenturen gearbeitet. Dementsprechend ist
           diese Webseite sowohl für potenzielle Kunden als auch für zukünftige
           Arbeitgeber gedacht.
-          <Center>
-            <Image
-              src={preview2}
-              className="about-img"
-              margin="20px"
-              width="80%"
-            />
-          </Center>
+          <Image
+            src={preview2}
+            className="about-img"
+            margin="20px"
+            width="50%"
+          />
+          <br />
+          <br />
           Ich bin viel herum gekommen. Mein Studium habe ich in Bremen
           abgeschlossen, anschießend habe ich in New York, Hamburg und jetzt in
           Hannover gelebt und gearbeitet.
@@ -55,21 +55,19 @@ const Home = () => {
           marginTop="7px"
           textAlign="justify"
         >
-          Wenn ich mal nicht irgendwas programmiere betreibe ich mehrere
+          <Image
+            src={preview3}
+            className="about-img"
+            margin="20px"
+            width="40%"
+          />
+          Wenn ich mal nicht irgendwas programmiere, betreibe ich mehrere
           Sportarten und spiele mehrere Spiele auf Turnier-Niveau. Meine wohl
           höchste Spielstärke habe ich in dem Brettspiel Go. Dort bin ich 1 Dan.
           Das entspricht ungefähr den deutschen Top 100. Außerdem gehe ich
           regelmäßig auf Poker- und Schachturniere. Sportlich gehe ich
           regelmäßig ins Fitnessstudio und jogge. Außerdem gehe ich gerne
           Bouldern.
-          <Center>
-            <Image
-              src={preview3}
-              className="about-img"
-              margin="20px"
-              width="80%"
-            />
-          </Center>
         </Text>
       </SimpleGrid>
     </div>

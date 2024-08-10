@@ -28,10 +28,10 @@ const Project3 = () => {
           Go-Spieler mit dem Ziel, das Go Spiel in der Stadt zu organisieren, zu
           fördern und zu verbreiten. Auf dieser Webseite werden alle Tätigkeiten
           um Go in Bremen durchgeführt. Die Webseite vermittelt das aktuelle
-          Geschehen und vernetzt sich mit der deutschlandweiten Go-Szene. Es
-          wurden Seiten für Turniere und Spieleabende umgesetzt. Außerdem gibt
-          es einen Newsticker, mehrere Seiten zu Erklärung des Spiels Go und
-          Seiten über die Geschichte des Vereins.
+          Geschehen und vernetzt sich mit der landesweiten Go-Szene. Es wurden
+          Seiten für Turniere und Spieleabende umgesetzt. Außerdem gibt es einen
+          Newsticker, mehrere Seiten zu Erklärung des Spiels Go und Seiten über
+          die Geschichte des Vereins.
         </Text>
         <Text
           textAlign="justify"

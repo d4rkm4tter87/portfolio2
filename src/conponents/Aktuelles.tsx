@@ -119,8 +119,8 @@ const Aktuelles = () => {
           <br />
           <br />
           Wie bereits erwähnt habe ich viele weiterbildende Maßnahmen in diesem
-          Jahr in Anspruch genommen. Einen Teil davon kann ich hier in Form von
-          Zertifikaten präsentieren.
+          Jahr in Anspruch genommen. Einen Teil davon möchte ich hier in Form
+          von Zertifikaten präsentieren.
         </Text>
         <Center className="gallery-container">
           <ImageGallery

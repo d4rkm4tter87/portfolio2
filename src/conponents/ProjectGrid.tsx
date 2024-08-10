@@ -98,9 +98,9 @@ const codeTooltip = (c: string, i: number, length: number) => {
 const projectTooltip = (c: string) => {
   switch (c) {
     case "Tsumego Hero":
-      return "Eine Webseite mit über 11.000 Puzzles zu dem Brettspiel Go.";
+      return "Tsumego Hero ist eine Spieleplattform mit über 11.000 Puzzles zu dem Brettspiel Go.";
     case "Trailers4u":
-      return "Eine Webseite zum Anschauen von Film-Trailern.";
+      return "Dies ist eine Webseite zum Anschauen von Film-Trailern.";
     case "Go in Bremen":
       return "Die offizielle Webseite des Bremer Go-Vereins.";
     case "Petersen Hardraht Pruggmayer":

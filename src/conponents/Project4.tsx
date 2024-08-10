@@ -33,8 +33,8 @@ const Project4 = () => {
           Anzahl an Seiten können Inhalte über eine Administrationsumgebung vom
           Kunden selbständig geändert werden. Während man in Wordpress mit einer
           Auswahl an Themes eine Webseite schnell erstellen kann haben wir für
-          diesen Kunden Design und Struktur nach den Wünschen des Kunden
-          entworfen.
+          diesen Kunden Design und Struktur nach den spezifischen Wünschen des
+          Kunden entworfen.
         </Text>
         <Text
           textAlign="justify"
@@ -45,10 +45,10 @@ const Project4 = () => {
           Auf der Webseite befinden sich detaillierte Darstellungen des Teams
           und der Schwerpunkte auf über 100 Seiten. Außerdem gibt es einen
           Newsticker, Seiten über Karrieremöglichkeiten und Beschreibungen über
-          die Standorte. Während die Mehrheit meiner Projekte durch mich als
-          Full-Stack-Entwickler erstellt wurden war dies eine Team-Arbeit in der
-          ich für die Überführung der Inhalt- und Designkonzepte in Wordpress
-          zuständig war.
+          die Standorte. Während die Mehrheit meiner anderen Projekte durch mich
+          als Full Stack Entwickler erstellt wurden war dies eine Team-Arbeit in
+          der ich für die Überführung der Inhalt- und Designkonzepte in
+          Wordpress zuständig war.
         </Text>
       </SimpleGrid>
       <SimpleGrid

@@ -28,9 +28,7 @@ const Project2 = () => {
           Nutzer können sich hier eine Übersicht über kommende oder vergangene
           Filme verschaffen. Dies kann eine Entscheidunghilfe sein ob es sich
           lohnt einen Film in ganzer Länge zu schauen, aber auch alleinstehend
-          sind viele dieser Trailer anschauenswert. Videoplatformen jeglicher
-          Art eignen sich sehr gut für die vergleichsweise neue Technologie
-          React.
+          sind viele dieser Trailer anschauenswert.
         </Text>
         <Text
           textAlign="justify"
@@ -38,10 +36,12 @@ const Project2 = () => {
           marginBottom="auto"
           marginTop="7px"
         >
-          Neben einer Vielzahl von Bibliotheken für Videoplattformen kann React
-          diesem Thema dynamisch und schnell geladene Inhalte anbieten und viele
-          einfach zu implementierende visuelle Features. Ein bekanntes Bespiel
-          für eine Video-Streaming-Dienst in React ist Netflix.
+          Videoplattformen jeglicher Art eignen sich sehr gut für die
+          vergleichsweise neue Technologie React. Neben einer Vielzahl von
+          Bibliotheken für Videoplattformen kann React diesem Thema dynamisch
+          und schnell geladene Inhalte anbieten und viele einfach zu
+          implementierende visuelle Features. Ein bekanntes Bespiel für eine
+          Video-Streaming-Dienst in React ist Netflix.
         </Text>
       </SimpleGrid>
       <SimpleGrid

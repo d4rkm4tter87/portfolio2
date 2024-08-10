@@ -24,9 +24,9 @@ const Project9 = () => {
           marginBottom="auto"
           marginTop="7px"
         >
-          Dies ist eine Trainings-App zum lernen von Gewinnwahrscheinlichkeiten
+          Dies ist eine Trainings-App zum Lernen von Gewinnwahrscheinlichkeiten
           im Texas Hold'em Poker. Im Poker ist es eine wichtige Fähigkeit zu
-          wissen, wie wahrscheinlich es ist unter bestimmten Bedingeungen zu
+          wissen, wie wahrscheinlich es ist, unter bestimmten Bedingungen zu
           gewinnen. Alle weiterführenden Entscheidungen basieren auf dieser
           Schätzung. Bei der Gegenüberstellung mit einem Mitspieler kann die
           Gewinnwahrscheinlichkeit in Prozent ausgedrückt werden. Die
@@ -47,8 +47,7 @@ const Project9 = () => {
           und der Spieler muss dann schätzen wie wahrscheinlich es ist, in
           dieser Situation zu gewinnen. Es können Szenarios gewählt werden aus
           dem Prefolp (keine Karten auf dem Tisch), Flop (drei Karten auf dem
-          Tisch), Turn (vier Karten auf dem Tisch) und River (fünf Karten auf
-          dem Tisch).
+          Tisch) und Turn (vier Karten auf dem Tisch).
         </Text>
       </SimpleGrid>
       <SimpleGrid

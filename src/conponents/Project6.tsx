@@ -19,16 +19,16 @@ const Project6 = () => {
           marginTop="7px"
         >
           Betaville in Bremen verfolgt das gleiche Ziel, wie das Projekt in New
-          York. Hierbei lag der Fokus im Gegensatz zu der New York University in
-          der Augmented Reality. Das bedeutet, dass der Benutzer mit einem
-          Smartphone zu dem realen Ort des Bauvorha- bens gehen kann und den
-          virtuellen Vorschlag über ein Smartphone betrachten kann.
+          York. Hierbei lag der Fokus allerdings in der Augmented Reality. Das
+          bedeutet, dass der Benutzer mit einem Smartphone zu dem realen Ort des
+          Bauvorhabens gehen kann und den virtuellen Vorschlag über die Kamera
+          im Smartphone betrachten kann.
           <br />
           <br />
-          Die hierfür programmierte Website umfässt Usermanagement, Einbindung
-          von Google Maps und diverse Flash-Applets. Es wurde außerdem die
-          Server-Client-Kommunikation für Smartphones zur Darstellung der
-          Augmented Reality in JSON programmiert.
+          Die hierfür programmierte Website beinhaltet Usermanagement, Google
+          Maps und diverse Flash-Applets. Es wurde außerdem die Server-Client
+          Kommunikation für Smartphones zur Darstellung der Augmented Reality in
+          JSON entwickelt.
         </Text>
         <Center>
           <Image src={preview} padding="10px" />
