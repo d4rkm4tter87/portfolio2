@@ -3,7 +3,6 @@ import { NavLink, useLocation } from "react-router-dom";
 
 const Nav = () => {
   const location = useLocation();
-  console.log(location.pathname);
   return (
     <HStack className="nav">
       <NavLink to="/">

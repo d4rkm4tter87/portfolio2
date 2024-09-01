@@ -1,6 +1,6 @@
-import { Grid, GridItem, HStack } from "@chakra-ui/react";
+import { Grid, GridItem } from "@chakra-ui/react";
 import ProjectGrid from "./conponents/ProjectGrid";
-import { useState } from "react";
+// import { useState } from "react";
 import Nav from "./conponents/Nav";
 import { Route, Routes } from "react-router-dom";
 import Home from "./conponents/Home";
@@ -15,14 +15,14 @@ import Project6 from "./conponents/Project6";
 import Project7 from "./conponents/Project7";
 import Project8 from "./conponents/Project8";
 import Project9 from "./conponents/Project9";
-import gerImg from "./assets/german_flag.png";
-import gerImg2 from "./assets/german_flag_active.png";
-import usImg from "./assets/american_flag.png";
-import usImg2 from "./assets/american_flag_active.png";
+// import gerImg from "./assets/german_flag.png";
+// import gerImg2 from "./assets/german_flag_active.png";
+// import usImg from "./assets/american_flag.png";
+// import usImg2 from "./assets/american_flag_active.png";
 
-function App() {
-  const [gerFlag, setGerFlag] = useState(false);
-  const [usFlag, setUsFlag] = useState(false);
+export default function App() {
+  // const [gerFlag, setGerFlag] = useState(false);
+  // const [usFlag, setUsFlag] = useState(false);
 
   return (
     <>
@@ -30,7 +30,7 @@ function App() {
       <div id="magic2">Joschka Zimdars - Web Developer</div>
       <div className="bg"></div>
       <div className="background">
-        <div className="language">
+        {/* <div className="language">
           <HStack>
             <img
               className="flag"
@@ -38,6 +38,7 @@ function App() {
               width="35px"
               onMouseOver={() => setGerFlag(true)}
               onMouseOut={() => setGerFlag(false)}
+              onClick={() => console.log("ger")}
             />
             <img
               className="flag"
@@ -45,9 +46,10 @@ function App() {
               width="35px"
               onMouseOver={() => setUsFlag(true)}
               onMouseOut={() => setUsFlag(false)}
+              onClick={() => console.log("us")}
             />
           </HStack>
-        </div>
+        </div> */}
         <div className="wrapper">
           <Grid
             templateAreas={{
@@ -100,5 +102,3 @@ function App() {
     </>
   );
 }
-
-export default App;
