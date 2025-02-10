@@ -94,7 +94,7 @@ export default function App() {
       </div>
       <div className="footer1">
         <div className="footer2">
-          Joschka Zimdars © 2024
+          Joschka Zimdars © 2025
           <br />
           joschka.zimdars@googlemail.com
         </div>
