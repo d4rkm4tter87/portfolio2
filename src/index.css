@@ -12,7 +12,7 @@ body {
 #root {
   width: 100vw;
   min-height: 100vh;
-  background-image: url("http://joschkazimdars.com/img/bg1.gif") !important;
+  background-image: url("assets/img/bg1.gif") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -367,7 +367,7 @@ body {
 }
 
 .project-box {
-  background-image: url("http://joschkazimdars.com/img/glass4.png") !important;
+  background-image: url("assets/img/glass4.png") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.4) !important;
