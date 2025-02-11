@@ -4,68 +4,68 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
-    original: "http://joschkazimdars.com/img/0.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb1.png",
+    original: "https://tsumego-hero.com/img/external/img/0.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb1.png",
   },
   {
-    original: "http://joschkazimdars.com/img/1.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb2.png",
+    original: "https://tsumego-hero.com/img/external/img/1.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb2.png",
   },
   {
-    original: "http://joschkazimdars.com/img/2.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb2.png",
+    original: "https://tsumego-hero.com/img/external/img/2.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb2.png",
   },
   {
-    original: "http://joschkazimdars.com/img/3.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb3.png",
+    original: "https://tsumego-hero.com/img/external/img/3.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb3.png",
   },
   {
-    original: "http://joschkazimdars.com/img/4.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb3.png",
+    original: "https://tsumego-hero.com/img/external/img/4.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb3.png",
   },
   {
-    original: "http://joschkazimdars.com/img/5.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb3.png",
+    original: "https://tsumego-hero.com/img/external/img/5.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb3.png",
   },
   {
-    original: "http://joschkazimdars.com/img/6.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb3.png",
+    original: "https://tsumego-hero.com/img/external/img/6.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb3.png",
   },
   {
-    original: "http://joschkazimdars.com/img/7.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb3.png",
+    original: "https://tsumego-hero.com/img/external/img/7.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb3.png",
   },
   {
-    original: "http://joschkazimdars.com/img/8.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb3.png",
+    original: "https://tsumego-hero.com/img/external/img/8.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb3.png",
   },
   {
-    original: "http://joschkazimdars.com/img/9.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb3.png",
+    original: "https://tsumego-hero.com/img/external/img/9.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb3.png",
   },
   {
-    original: "http://joschkazimdars.com/img/10.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb1.png",
+    original: "https://tsumego-hero.com/img/external/img/10.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb1.png",
   },
   {
-    original: "http://joschkazimdars.com/img/11.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb3.png",
+    original: "https://tsumego-hero.com/img/external/img/11.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb3.png",
   },
   {
-    original: "http://joschkazimdars.com/img/12.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb3.png",
+    original: "https://tsumego-hero.com/img/external/img/12.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb3.png",
   },
   {
-    original: "http://joschkazimdars.com/img/13.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb3.png",
+    original: "https://tsumego-hero.com/img/external/img/13.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb3.png",
   },
   {
-    original: "http://joschkazimdars.com/img/14.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb1.png",
+    original: "https://tsumego-hero.com/img/external/img/14.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb1.png",
   },
   {
-    original: "http://joschkazimdars.com/img/15.PNG",
-    thumbnail: "http://joschkazimdars.com/img/thumb1.png",
+    original: "https://tsumego-hero.com/img/external/img/15.PNG",
+    thumbnail: "https://tsumego-hero.com/img/external/img/thumb1.png",
   },
 ];
 
