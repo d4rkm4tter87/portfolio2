@@ -1,4 +1,4 @@
-import { Center, Text, Image, SimpleGrid } from "@chakra-ui/react";
+import { Center, Text, Image, SimpleGrid, Link } from "@chakra-ui/react";
 import preview from "../assets/code-analytics-preview.png";
 
 const Project13 = () => {
@@ -6,6 +6,11 @@ const Project13 = () => {
     <div>
       <Center fontSize="2xl" className="mirror2">
         Code Analytics
+      </Center>
+      <Center>
+        <Link href="https://code-analytics.netlify.app/" isExternal>
+          code-analytics.netlify.app
+        </Link>
       </Center>
       <SimpleGrid
         columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}

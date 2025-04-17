@@ -1,4 +1,4 @@
-import { Center, Text, Image, SimpleGrid } from "@chakra-ui/react";
+import { Center, Text, Image, SimpleGrid, Link } from "@chakra-ui/react";
 import preview from "../assets/mine-pusher-preview.png";
 
 const Project12 = () => {
@@ -6,6 +6,11 @@ const Project12 = () => {
     <div>
       <Center fontSize="2xl" className="mirror2">
         Mine Pusher
+      </Center>
+      <Center>
+        <Link href="https://mine-pusher.netlify.app/" isExternal>
+          mine-pusher.netlify.app
+        </Link>
       </Center>
       <SimpleGrid
         columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}
