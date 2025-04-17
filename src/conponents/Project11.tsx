@@ -1,4 +1,4 @@
-import { Center, Text, Image, SimpleGrid } from "@chakra-ui/react";
+import { Center, Text, Image, SimpleGrid, Link } from "@chakra-ui/react";
 import preview from "../assets/task-tracker-preview.png";
 
 const Project11 = () => {
@@ -6,6 +6,11 @@ const Project11 = () => {
     <div>
       <Center fontSize="2xl" className="mirror2">
         Task Tracker
+      </Center>
+      <Center>
+        <Link href="https://d4rk-task-tracker.netlify.app/" isExternal>
+          d4rk-task-tracker.netlify.app
+        </Link>
       </Center>
       <SimpleGrid
         columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}

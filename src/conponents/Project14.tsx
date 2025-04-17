@@ -1,4 +1,4 @@
-import { Center, Text, Image, SimpleGrid } from "@chakra-ui/react";
+import { Center, Text, Image, SimpleGrid, Link } from "@chakra-ui/react";
 import preview from "../assets/tagster-preview.png";
 
 const Project14 = () => {
@@ -6,6 +6,11 @@ const Project14 = () => {
     <div>
       <Center fontSize="2xl" className="mirror2">
         Tagster
+      </Center>
+      <Center>
+        <Link href="https://d4rk-tagster.netlify.app/" isExternal>
+          d4rk-tagster.netlify.app
+        </Link>
       </Center>
       <SimpleGrid
         columns={{ sm: 1, md: 1, lg: 2, xl: 2 }}
