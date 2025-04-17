@@ -129,7 +129,8 @@ body {
   color: #d4d4d4;
 }
 .Firebase,
-.Firestore {
+.Firestore,
+.Zustand {
   color: #ffc300;
 }
 .TypeScript {
@@ -147,7 +148,15 @@ body {
 .Joomla {
   color: #5fa72d;
 }
-
+.Query {
+  color: rgb(247, 91, 64);
+}
+.Tailwind {
+  color: #08dcff;
+}
+.Bootstrap {
+  color: rgb(136, 136, 206);
+}
 .tooltip {
   position: relative;
   display: inline-block;
@@ -251,6 +260,11 @@ body {
   border: 0.125em solid rgb(136, 136, 206);
   box-shadow: inset 0 0 0.75em 0 rgb(136, 136, 206),
     0 0 0.75em 0 rgb(136, 136, 206);
+}
+.tailwindTooltip {
+  background-color: rgba(8, 126, 207, 0.45);
+  border: 0.125em solid rgb(8, 126, 207);
+  box-shadow: inset 0 0 0.75em 0 rgb(8, 126, 207), 0 0 0.75em 0 rgb(8, 126, 207);
 }
 
 .tooltip .tooltiptext {
@@ -363,7 +377,7 @@ body {
 }
 .footer2 {
   text-align: center;
-  margin: 12px;
+  margin: 68px;
 }
 
 .project-box {

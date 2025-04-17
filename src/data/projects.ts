@@ -34,13 +34,7 @@ export default [
     code: ["CakePHP", "MySQL", "JavaScript", "MathML", "SVN"],
     link: "airlift",
   },
-  {
-    id: 5,
-    name: "City Dating",
-    img: "https://tsumego-hero.com/img/logos/city-dating.png",
-    code: ["Joomla", "MySQL", "JavaScript", "PHP", "Git"],
-    link: "city-dating",
-  },
+
   {
     id: 6,
     name: "Betaville New York",
@@ -68,5 +62,40 @@ export default [
     img: "https://tsumego-hero.com/img/logos/staiker-review.png",
     code: ["CakePHP", "MySQL", "JavaScript", "Git"],
     link: "staiker-reviews",
+  },
+  {
+    id: 5,
+    name: "City Dating",
+    img: "https://tsumego-hero.com/img/logos/city-dating.png",
+    code: ["Joomla", "MySQL", "JavaScript", "PHP", "Git"],
+    link: "city-dating",
+  },
+  {
+    id: 10,
+    name: "Task Tracker",
+    img: "https://tsumego-hero.com/img/external/img/task-tracker-logo.png",
+    code: ["React", "TypeScript", "React Query", "Tailwind CSS", "Git"],
+    link: "task-tracker",
+  },
+  {
+    id: 11,
+    name: "Mine Pusher",
+    img: "https://tsumego-hero.com/img/external/img/mine-pusher-logo.png",
+    code: ["React", "JavaScript", "Bootstrap", "Git"],
+    link: "mine-pusher",
+  },
+  {
+    id: 12,
+    name: "Code Analytics",
+    img: "https://tsumego-hero.com/img/external/img/code-analytics-logo.png",
+    code: ["React", "TypeScript", "React Query", "Tailwind CSS", "Git"],
+    link: "code-analytics",
+  },
+  {
+    id: 13,
+    name: "Tagster",
+    img: "https://tsumego-hero.com/img/external/img/tagster-logo.png",
+    code: ["React", "TypeScript", "Zustand", "Tailwind CSS", "Git"],
+    link: "tagster",
   },
 ];

@@ -15,6 +15,10 @@ import Project6 from "./conponents/Project6";
 import Project7 from "./conponents/Project7";
 import Project8 from "./conponents/Project8";
 import Project9 from "./conponents/Project9";
+import Project11 from "./conponents/Project11";
+import Project12 from "./conponents/Project12";
+import Project14 from "./conponents/Project14";
+import Project13 from "./conponents/Project13";
 // import gerImg from "./assets/german_flag.png";
 // import gerImg2 from "./assets/german_flag_active.png";
 // import usImg from "./assets/american_flag.png";
@@ -23,7 +27,6 @@ import Project9 from "./conponents/Project9";
 export default function App() {
   // const [gerFlag, setGerFlag] = useState(false);
   // const [usFlag, setUsFlag] = useState(false);
-
   return (
     <>
       <div id="magic"></div>
@@ -83,6 +86,13 @@ export default function App() {
                   path="/projects/staiker-reviews"
                   element={<Project10 />}
                 />
+                <Route path="/projects/task-tracker" element={<Project11 />} />
+                <Route path="/projects/mine-pusher" element={<Project12 />} />
+                <Route
+                  path="/projects/code-analytics"
+                  element={<Project13 />}
+                />
+                <Route path="/projects/tagster" element={<Project14 />} />
                 <Route
                   path="*"
                   element={<h1 className="not-found">Page Not Found</h1>}
@@ -94,7 +104,7 @@ export default function App() {
       </div>
       <div className="footer1">
         <div className="footer2">
-          Joschka Zimdars © 2025
+          Joschka Zimdars © {new Date().getFullYear()}
           <br />
           joschka.zimdars@googlemail.com
         </div>

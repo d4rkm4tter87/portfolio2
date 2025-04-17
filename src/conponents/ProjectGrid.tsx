@@ -43,11 +43,7 @@ const ProjectGrid = () => {
                         <div className="tooltip">
                           <Image
                             src={project.img}
-                            width={
-                              project.id === 4 || project.id === 2
-                                ? "70px"
-                                : "100%"
-                            }
+                            width={getImageScale(project.id)}
                           />
                           <span className={projectTooltipClass(project.name)}>
                             {projectTooltip(project.name)}
@@ -75,9 +71,24 @@ const ProjectGrid = () => {
   );
 };
 
+const getImageScale = (id: number) => {
+  switch (id) {
+    case 2:
+      return "70px";
+    case 4:
+      return "70px";
+    case 10:
+      return "120px";
+    case 11:
+      return "100px";
+    default:
+      return "100%";
+  }
+};
+
 const codeTooltip = (c: string, i: number, length: number) => {
   {
-    const cx = c !== "JavaScript- und CSS-Bibliotheken" ? c : "JavaScript";
+    const cx = codeClass2(c);
     const comma = i < length - 1 ? ", " : "";
     return (
       <>
@@ -92,6 +103,19 @@ const codeTooltip = (c: string, i: number, length: number) => {
         {comma}
       </>
     );
+  }
+};
+
+const codeClass2 = (cx: string) => {
+  switch (cx) {
+    case "JavaScript- und CSS-Bibliotheken":
+      return "JavaScript";
+    case "Tailwind CSS":
+      return "Tailwind";
+    case "React Query":
+      return "Query";
+    default:
+      return cx;
   }
 };
 
@@ -117,6 +141,14 @@ const projectTooltip = (c: string) => {
       return "Dies ist eine Trainings-App zum lernen von Gewinnwahrscheinlichkeiten im Poker.";
     case "Staiker Go Rewiews":
       return "Dies ist eine Webseite zur Dokumentation und Analyse von Partien in dem Brettspiel Go.";
+    case "Task Tracker":
+      return "This is a tool that can be used to track tasks and statuses. Tasks can have different statuses and can be ordered by different criteria.";
+    case "Mine Pusher":
+      return "Mine Pusher is a game where the player has to click a mine to collect coins. While collection coins he has to be carful not to trigger an explosion.";
+    case "Code Analytics":
+      return "This is a tool to inspect code. The output are several statistics about the uploaded code that can be used to make further conclusions.";
+    case "Tagster":
+      return "This is a website to get an overview of tags from several websites. The tags can be seen with its statistics, such as its description, where and how often are the used on the targeted website.";
     default:
       return "tooltiptext";
   }
@@ -144,6 +176,14 @@ const projectTooltipClass = (c: string) => {
       return "tooltiptext2 staikerEquityTooltip";
     case "Staiker Go Rewiews":
       return "tooltiptext2 staikerReviewTooltip";
+    case "Task Tracker":
+      return "tooltiptext2 goInBremenTooltip";
+    case "Mine Pusher":
+      return "tooltiptext2 trailers4uTooltip";
+    case "Code Analytics":
+      return "tooltiptext2 betavilleNyTooltip";
+    case "Tagster":
+      return "tooltiptext2 goInBremenTooltip";
     default:
       return "tooltiptext2 tsumegoHeroTooltip";
   }
@@ -189,6 +229,14 @@ const codeTooltipClass = (c: string) => {
       return "tooltiptext phpTooltip";
     case "MathML":
       return "tooltiptext mathmlTooltip";
+    case "Tailwind CSS":
+      return "tooltiptext tailwindTooltip";
+    case "Bootstrap":
+      return "tooltiptext phpTooltip";
+    case "Zustand":
+      return "tooltiptext jsTooltip";
+    case "React Query":
+      return "tooltiptext asTooltip";
     default:
       return "tooltiptext";
   }
@@ -232,6 +280,14 @@ const codeTooltipDescription = (c: string) => {
       return "PHP wird verwendet, um dynamische Webseiten zu erstellen und kann HTML-Code in Webseiten einbetten. PHP unterstützt eine Vielzahl von Datenbanken, darunter MySQL, PostgreSQL, Oracle, Microsoft SQL Server und viele andere. ";
     case "MathML":
       return "MathML (Mathematical Markup Language) ist eine XML-basierte Markup-Sprache, die zur Darstellung von mathematischen Notationen und zum Erfassen mathematischer Strukturen verwendet wird. MathML wurde entwickelt, um mathematische Formeln und Ausdrücke auf Webseiten darzustellen und zu codieren, sodass sie von Computern und anderen Geräten verstanden und verarbeitet werden können. ";
+    case "Tailwind CSS":
+      return "Tailwind CSS ist ein Utility-First CSS-Framework, das Entwicklern hilft, anpassbare und responsive Benutzeroberflächen schnell zu erstellen. Es bietet eine Vielzahl von vordefinierten CSS-Klassen, die es ermöglichen, Stile direkt in HTML-Elementen anzuwenden, anstatt separate CSS-Dateien zu schreiben. ";
+    case "Bootstrap":
+      return "Bootstrap ist ein beliebtes Frontend-Framework zur Entwicklung von responsiven und mobilen Webseiten. Es bietet eine Sammlung von HTML-, CSS- und JavaScript-Komponenten, die Entwicklern helfen, ansprechende und benutzerfreundliche Benutzeroberflächen zu erstellen. Bootstrap ist besonders nützlich für die schnelle Entwicklung von Prototypen und die Erstellung von Websites, die auf verschiedenen Geräten gut aussehen.";
+    case "Zustand":
+      return "Zustand ist eine State-Management-Bibliothek für React-Anwendungen, die eine einfache und effiziente Möglichkeit bietet, den Zustand von Komponenten zu verwalten. Es ist leichtgewichtig und einfach zu verwenden, was es zu einer beliebten Wahl für Entwickler macht, die eine unkomplizierte Lösung für das State-Management in ihren React-Projekten suchen.";
+    case "React Query":
+      return "React Query ist eine leistungsstarke Bibliothek für das Datenmanagement in React-Anwendungen. Sie erleichtert das Abrufen, Cachen und Aktualisieren von Daten aus APIs und anderen Datenquellen. React Query bietet eine einfache API, um den Zustand von Daten zu verwalten und die Benutzeroberfläche automatisch zu aktualisieren, wenn sich die Daten ändern.";
     default:
       return "";
   }
