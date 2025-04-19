@@ -23,9 +23,14 @@ const Project12 = () => {
           marginBottom="auto"
           marginTop="40px"
         >
-          Mine Pusher is a game where the player has to click a mine to collect
-          coins. While collection coins he has to be carful not to trigger an
-          explosion.
+          Mine Pusher is a game where the player has to grow a mine to beat the
+          highscore. With every action, the probability to trigger an explosion
+          increases. There are six different actions that can be done. Five of
+          them have different highscore point increase rates and also different
+          probabilities of explosion. The last action is to take the points over
+          into the highscore. Thus, the user has to make a decision at every
+          step if he wants to save the points to the highscore or take a risk to
+          increase the points but maybe trigger an explosion.
         </Text>
         <Center>
           <Image src={preview} padding="10px" />

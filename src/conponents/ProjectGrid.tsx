@@ -144,7 +144,7 @@ const projectTooltip = (c: string) => {
     case "Task Tracker":
       return "This is a tool that can be used to track tasks and statuses. Tasks can have different statuses and can be ordered by different criteria.";
     case "Mine Pusher":
-      return "Mine Pusher is a game where the player has to click a mine to collect coins. While collection coins he has to be carful not to trigger an explosion.";
+      return "Mine Pusher is a game where the player has to grow a mine to beat the highscore. With every action, the probability to trigger an explosion increases.";
     case "Code Analytics":
       return "This is a tool to inspect code. The output are several statistics about the uploaded code that can be used to make further conclusions.";
     case "Tagster":
