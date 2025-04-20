@@ -23,8 +23,13 @@ const Project11 = () => {
           marginBottom="auto"
           marginTop="40px"
         >
-          This is a tool that can be used to track tasks and statuses. Tasks can
-          have different statuses and can be ordered by different criteria.
+          This is a website to create and track tasks. Task Tracker can be used
+          to help with a project, such as a website in my case. It can also help
+          with daily shores, purchase list and many other things. The tasks can
+          be incomplete, completed and deleted. It is also possible to add
+          tasks, mark all as complete, mark all as incomplete, reset to initial
+          state and remove all items. The tasks can be sorted by default,
+          alphabetically, by completed and by not complete.
         </Text>
         <Center>
           <Image src={preview} padding="10px" />
