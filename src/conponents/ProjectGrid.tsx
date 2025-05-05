@@ -9,9 +9,14 @@ import {
   Center,
 } from "@chakra-ui/react";
 import projects from "../data/projects";
-import { NavLink } from "react-router-dom";
 
-const ProjectGrid = () => {
+type ProjectGridProps = {
+  setPage: (page: string) => void;
+};
+
+const ProjectGrid = ({ setPage }: ProjectGridProps) => {
+  console.log(projects);
+
   return (
     <>
       <Center fontSize="2xl" className="mirror2">
@@ -25,7 +30,7 @@ const ProjectGrid = () => {
       >
         {projects.map((project) => (
           <Box borderRadius={10}>
-            <NavLink to={"/projects/" + project.link}>
+            <a onClick={() => setPage(project.link)}>
               <Card
                 align="center"
                 bg="rgba(0, 0, 0, 0.25)"
@@ -63,7 +68,7 @@ const ProjectGrid = () => {
                   </Box>
                 </CardBody>
               </Card>
-            </NavLink>
+            </a>
           </Box>
         ))}
       </SimpleGrid>

@@ -380,6 +380,10 @@ body {
   margin: 68px;
 }
 
+.top-nav-links {
+  cursor: pointer;
+}
+
 .project-box {
   background-image: url("assets/img/glass4.png") !important;
   background-repeat: no-repeat;
