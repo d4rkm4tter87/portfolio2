@@ -1,5 +1,5 @@
 import { Center, Text, Image, SimpleGrid, Link } from "@chakra-ui/react";
-import preview from "../assets/tagster-preview.png";
+import preview from "../assets/preview/tagster-preview.webp";
 
 const Project14 = () => {
   return (

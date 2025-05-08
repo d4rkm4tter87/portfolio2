@@ -1,6 +1,6 @@
 import { Center, Text, Image, Link, SimpleGrid } from "@chakra-ui/react";
-import preview1 from "../assets/staiker-equity1.png";
-import preview2 from "../assets/staiker-equity2.png";
+import preview1 from "../assets/preview/staiker-equity1.webp";
+import preview2 from "../assets/preview/staiker-equity2.webp";
 
 const Project9 = () => {
   return (

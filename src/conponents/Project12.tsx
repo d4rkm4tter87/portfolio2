@@ -1,5 +1,5 @@
 import { Center, Text, Image, SimpleGrid, Link } from "@chakra-ui/react";
-import preview from "../assets/mine-pusher-preview.png";
+import preview from "../assets/preview/mine-pusher-preview.webp";
 
 const Project12 = () => {
   return (

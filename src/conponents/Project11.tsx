@@ -1,5 +1,5 @@
 import { Center, Text, Image, SimpleGrid, Link } from "@chakra-ui/react";
-import preview from "../assets/task-tracker-preview.png";
+import preview from "../assets/preview/task-tracker-preview.webp";
 
 const Project11 = () => {
   return (

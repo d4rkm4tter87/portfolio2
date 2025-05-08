@@ -1,5 +1,5 @@
 import { Center, Text, Image, SimpleGrid, Link } from "@chakra-ui/react";
-import preview from "../assets/code-analytics-preview.png";
+import preview from "../assets/preview/code-analytics-preview.webp";
 
 const Project13 = () => {
   return (

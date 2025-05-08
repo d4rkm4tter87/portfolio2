@@ -1,5 +1,5 @@
-import preview1 from "../assets/th1.png";
-import preview2 from "../assets/th2.png";
+import preview1 from "../assets/preview/th1.webp";
+import preview2 from "../assets/preview/th2.webp";
 import { Text, Image, Center, Link, SimpleGrid } from "@chakra-ui/react";
 const Project1 = () => {
   return (

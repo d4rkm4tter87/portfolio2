@@ -1,5 +1,5 @@
 import { Center, Text, Image, SimpleGrid } from "@chakra-ui/react";
-import preview from "../assets/betaville-bremen.png";
+import preview from "../assets/preview/betaville-bremen.webp";
 
 const Project6 = () => {
   return (
