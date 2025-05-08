@@ -145,13 +145,13 @@ const projectTooltip = (c: string) => {
     case "Staiker Go Rewiews":
       return "Dies ist eine Webseite zur Dokumentation und Analyse von Partien in dem Brettspiel Go.";
     case "Task Tracker":
-      return "Dies ist eine Website zum Erstellen und Verfolgen von Aufgaben. Der Task Tracker unterstützt Sie bei Projekten, wie in meinem Fall einer Website. Er unterstützt Sie auch bei täglichen Aufgaben, Einkaufslisten und vielem mehr.";
+      return "This is a tool that can be used to track tasks and statuses. Tasks can have different statuses and can be ordered by different criteria.";
     case "Mine Pusher":
-      return "Mine Pusher ist ein Spiel, bei dem der Spieler eine Mine ausbauen muss, um den Highscore zu knacken. Mit jeder Aktion steigt die Wahrscheinlichkeit, eine Explosion auszulösen.";
+      return "Mine Pusher is a game where the player has to grow a mine to beat the highscore. With every action, the probability to trigger an explosion increases.";
     case "Code Analytics":
-      return "Dies ist ein Werkzeug zur Code-Inspektion. Der Benutzer gibt Text ein oder lädt eine Datei hoch. Die Eingabe wird dann nach verschiedenen Kriterien überprüft.";
+      return "This is a tool to inspect code. The output are several statistics about the uploaded code that can be used to make further conclusions.";
     case "Tagster":
-      return "Auf dieser Website erhalten Sie einen Überblick über die Tags verschiedener Websites. Verschiedene Websites veröffentlichen ihre Tags mit Eigenschaften wie Beschreibung, Vorkommen, Upvotes, Abzeichen, Datum und Unternehmen.";
+      return "This is a website to get an overview of tags from several websites. The tags can be seen with its statistics, such as its description, where and how often are the used on the targeted website.";
     default:
       return "tooltiptext";
   }

@@ -23,11 +23,8 @@ const Project13 = () => {
           marginBottom="auto"
           marginTop="40px"
         >
-          Dies ist ein Werkzeug zur Code-Inspektion. Der Benutzer gibt Text ein
-          oder lädt eine Datei hoch. Die Eingabe wird dann nach verschiedenen
-          Kriterien überprüft. Geprüft werden Wort- und Zeichenlänge, Anzahl der
-          Funktionen und verbleibende Zeichen für bestimmte Plattformen. Aus den
-          Ergebnissen kann der Benutzer weitere Rückschlüsse ziehen.
+          This is a tool to inspect code. The output are several statistics
+          about the uploaded code that can be used to make further conclusions.
         </Text>
         <Center>
           <Image src={preview} padding="10px" />

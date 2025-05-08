@@ -50,10 +50,10 @@ const Project2 = () => {
         spacing={6}
       >
         <Center>
-          <Image src={preview1} padding="10px" width="95%" />
+          <Image src={preview1} padding="10px" width="75%" />
         </Center>
         <Center>
-          <Image src={preview2} padding="10px" width="95%" />
+          <Image src={preview2} padding="10px" width="75%" />
         </Center>
       </SimpleGrid>
     </div>

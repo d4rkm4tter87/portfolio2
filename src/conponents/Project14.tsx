@@ -23,13 +23,9 @@ const Project14 = () => {
           marginBottom="auto"
           marginTop="40px"
         >
-          Auf dieser Website erhalten Sie einen Überblick über die Tags
-          verschiedener Websites. Verschiedene Websites veröffentlichen ihre
-          Tags mit Eigenschaften wie Beschreibung, Vorkommen, Upvotes,
-          Abzeichen, Datum und Unternehmen. Die Tags werden mit Statistiken
-          angezeigt, wo und wie oft sie auf der jeweiligen Website verwendet
-          werden. Außerdem können Sie Tags mit anderen Websites vergleichen und
-          untersuchen.
+          This is a website to get an overview of tags from several websites.
+          The tags can be seen with its statistics, such as its description,
+          where and how often are the used on the targeted website.
         </Text>
         <Center>
           <Image src={preview} padding="10px" />
