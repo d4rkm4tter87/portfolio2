@@ -2,7 +2,7 @@ export default [
   {
     id: 0,
     name: "Tsumego Hero",
-    img: "/public/tsumego-hero.png",
+    img: "tsumego-hero.png",
     code: ["CakePHP", "MySQL", "Git", "JavaScript- und CSS-Bibliotheken"],
     link: "tsumego-hero",
   },
