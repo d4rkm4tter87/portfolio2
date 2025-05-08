@@ -15,8 +15,6 @@ type ProjectGridProps = {
 };
 
 const ProjectGrid = ({ setPage }: ProjectGridProps) => {
-  console.log(projects);
-
   return (
     <>
       <Center fontSize="2xl" className="mirror2">
