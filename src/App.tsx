@@ -17,16 +17,43 @@ import Project11 from "./conponents/Project11";
 import Project12 from "./conponents/Project12";
 import Project14 from "./conponents/Project14";
 import Project13 from "./conponents/Project13";
-import { useState } from "react";
+//import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+// import gerImg from "./assets/german_flag.png";
+// import gerImg2 from "./assets/german_flag_active.png";
+// import usImg from "./assets/american_flag.png";
+// import usImg2 from "./assets/american_flag_active.png";
 
 export default function App() {
-  const [page, setPage] = useState("home");
+  //const [page, setPage] = useState("home");
+  // const [gerFlag, setGerFlag] = useState(false);
+  // const [usFlag, setUsFlag] = useState(false);
   return (
     <>
       <div id="magic"></div>
       <div id="magic2">Joschka Zimdars - Web Developer</div>
       <div className="bg"></div>
       <div className="background">
+        {/* <div className="language">
+          <HStack>
+            <img
+              className="flag"
+              src={!gerFlag ? gerImg : gerImg2}
+              width="35px"
+              onMouseOver={() => setGerFlag(true)}
+              onMouseOut={() => setGerFlag(false)}
+              onClick={() => console.log("ger")}
+            />
+            <img
+              className="flag"
+              src={!usFlag ? usImg : usImg2}
+              width="35px"
+              onMouseOver={() => setUsFlag(true)}
+              onMouseOut={() => setUsFlag(false)}
+              onClick={() => console.log("us")}
+            />
+          </HStack>
+        </div> */}
         <div className="wrapper">
           <Grid
             templateAreas={{
@@ -34,26 +61,44 @@ export default function App() {
             }}
           >
             <GridItem area="nav">
-              <Nav setPage={setPage} page={page} />
+              <Nav />
             </GridItem>
             <GridItem area="main">
-              {page === "home" && <ProjectGrid setPage={setPage} />}
-              {page === "aktuelles" && <Aktuelles />}
-              {page === "about" && <Home />}
-              {page === "tsumego-hero" && <Project1 />}
-              {page === "trailers4u" && <Project2 />}
-              {page === "go-bremen" && <Project3 />}
-              {page === "petersen-hardraht-pruggmayer" && <Project4 />}
-              {page === "airlift" && <Project8 />}
-              {page === "betaville-ny" && <Project5 />}
-              {page === "betaville-bremen" && <Project6 />}
-              {page === "staiker-equity" && <Project9 />}
-              {page === "staiker-reviews" && <Project10 />}
-              {page === "city-dating" && <Project7 />}
-              {page === "task-tracker" && <Project11 />}
-              {page === "mine-pusher" && <Project12 />}
-              {page === "code-analytics" && <Project13 />}
-              {page === "tagster" && <Project14 />}
+              <Routes>
+                <Route path="/" element={<ProjectGrid />} />
+                <Route path="/recently" element={<Aktuelles />} />
+                <Route path="/about" element={<Home />} />
+                <Route path="/projects/tsumego-hero" element={<Project1 />} />
+                <Route path="/projects/trailers4u" element={<Project2 />} />
+                <Route path="/projects/go-bremen" element={<Project3 />} />
+                <Route
+                  path="/projects/petersen-hardraht-pruggmayer"
+                  element={<Project4 />}
+                />
+                <Route path="/projects/betaville-ny" element={<Project5 />} />
+                <Route
+                  path="/projects/betaville-bremen"
+                  element={<Project6 />}
+                />
+                <Route path="/projects/city-dating" element={<Project7 />} />
+                <Route path="/projects/airlift" element={<Project8 />} />
+                <Route path="/projects/staiker-equity" element={<Project9 />} />
+                <Route
+                  path="/projects/staiker-reviews"
+                  element={<Project10 />}
+                />
+                <Route path="/projects/task-tracker" element={<Project11 />} />
+                <Route path="/projects/mine-pusher" element={<Project12 />} />
+                <Route
+                  path="/projects/code-analytics"
+                  element={<Project13 />}
+                />
+                <Route path="/projects/tagster" element={<Project14 />} />
+                <Route
+                  path="*"
+                  element={<h1 className="not-found">Page Not Found</h1>}
+                />
+              </Routes>
             </GridItem>
           </Grid>
         </div>

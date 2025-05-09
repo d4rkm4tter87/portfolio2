@@ -1,32 +1,49 @@
 import { HStack } from "@chakra-ui/react";
-import NavButton from "./NavButton";
+import { NavLink, useLocation } from "react-router-dom";
 
-type NavProps = {
-  page: string;
-  setPage: (page: string) => void;
-};
-
-const Nav = ({ setPage, page }: NavProps) => {
+const Nav = () => {
+  const location = useLocation();
   return (
     <HStack className="nav">
-      <NavButton
-        setPage={setPage}
-        page={page}
-        pathName="home"
-        name="Projekte"
-      />
-      <NavButton
-        setPage={setPage}
-        page={page}
-        pathName="aktuelles"
-        name="Aktuelles"
-      />
-      <NavButton
-        setPage={setPage}
-        page={page}
-        pathName="about"
-        name="Über mich"
-      />
+      <NavLink to="/">
+        <p
+          className={
+            location.pathname === "/" ||
+            location.pathname === "/projects/tsumego-hero" ||
+            location.pathname === "/projects/trailers4u" ||
+            location.pathname === "/projects/go-bremen" ||
+            location.pathname === "/projects/petersen-hardraht-pruggmayer" ||
+            location.pathname === "/projects/airlift" ||
+            location.pathname === "/projects/city-dating" ||
+            location.pathname === "/projects/betaville-ny" ||
+            location.pathname === "/projects/betaville-bremen" ||
+            location.pathname === "/projects/staiker-equity" ||
+            location.pathname === "/projects/staiker-reviews"
+              ? "mirror-active"
+              : "mirror"
+          }
+        >
+          Projekte
+        </p>
+      </NavLink>
+      <NavLink to="/recently">
+        <p
+          className={
+            location.pathname === "/recently" ? "mirror-active" : "mirror"
+          }
+        >
+          Aktuelles
+        </p>
+      </NavLink>
+      <NavLink to="/about">
+        <p
+          className={
+            location.pathname === "/about" ? "mirror-active" : "mirror"
+          }
+        >
+          Über mich
+        </p>
+      </NavLink>
     </HStack>
   );
 };
