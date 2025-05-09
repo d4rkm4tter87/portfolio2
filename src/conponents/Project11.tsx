@@ -23,13 +23,15 @@ const Project11 = () => {
           marginBottom="auto"
           marginTop="40px"
         >
-          This is a website to create and track tasks. Task Tracker can be used
-          to help with a project, such as a website in my case. It can also help
-          with daily shores, purchase list and many other things. The tasks can
-          be incomplete, completed and deleted. It is also possible to add
-          tasks, mark all as complete, mark all as incomplete, reset to initial
-          state and remove all items. The tasks can be sorted by default,
-          alphabetically, by completed and by not complete.
+          Dies ist eine Website zum Erstellen und Verfolgen von Aufgaben. Der
+          Task Tracker unterstützt Sie bei Projekten, wie in meinem Fall einer
+          Website. Er unterstützt Sie auch bei täglichen Aufgaben,
+          Einkaufslisten und vielem mehr. Die Aufgaben können unvollständig,
+          abgeschlossen und gelöscht sein. Sie können Aufgaben hinzufügen, alle
+          als abgeschlossen markieren, alle als unvollständig markieren, auf den
+          Ausgangszustand zurücksetzen und alle Elemente entfernen. Die Aufgaben
+          können standardmäßig, alphabetisch, nach abgeschlossen und nach nicht
+          abgeschlossen sortiert werden.
         </Text>
         <Center>
           <Image src={preview} padding="10px" />
