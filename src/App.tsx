@@ -17,7 +17,7 @@ import Project11 from "./conponents/Project11";
 import Project12 from "./conponents/Project12";
 import Project14 from "./conponents/Project14";
 import Project13 from "./conponents/Project13";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Route, Routes } from "react-router-dom";
 import gerImg from "./assets/german_flag.png";
 import gerImg2 from "./assets/german_flag_active.png";
@@ -26,8 +26,8 @@ import usImg2 from "./assets/american_flag_active.png";
 import { LanguageContext } from "./contexts/LanguageContextProvider";
 
 export default function App() {
-  const [gerFlag, setGerFlag] = useState(false);
-  const [usFlag, setUsFlag] = useState(false);
+  //const [gerFlag, setGerFlag] = useState(false);
+  //const [usFlag, setUsFlag] = useState(false);
   const context = useContext(LanguageContext);
 
   return (
@@ -42,16 +42,16 @@ export default function App() {
               className="flag"
               src={context?.language === "en" ? gerImg : gerImg2}
               width="35px"
-              onMouseOver={() => setGerFlag(true)}
-              onMouseOut={() => setGerFlag(false)}
+              //onMouseOver={() => setGerFlag(true)}
+              //onMouseOut={() => setGerFlag(false)}
               onClick={() => context?.setLanguage("de")}
             />
             <img
               className="flag"
               src={context?.language === "de" ? usImg : usImg2}
               width="35px"
-              onMouseOver={() => setUsFlag(true)}
-              onMouseOut={() => setUsFlag(false)}
+              //onMouseOver={() => setUsFlag(true)}
+              //onMouseOut={() => setUsFlag(false)}
               onClick={() => context?.setLanguage("en")}
             />
           </HStack>
