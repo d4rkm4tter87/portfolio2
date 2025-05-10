@@ -1,4 +1,4 @@
-import { Grid, GridItem } from "@chakra-ui/react";
+import { Grid, GridItem, HStack } from "@chakra-ui/react";
 import ProjectGrid from "./conponents/ProjectGrid";
 import Nav from "./conponents/Nav";
 import Home from "./conponents/Home";
@@ -17,43 +17,45 @@ import Project11 from "./conponents/Project11";
 import Project12 from "./conponents/Project12";
 import Project14 from "./conponents/Project14";
 import Project13 from "./conponents/Project13";
-//import { useState } from "react";
+import { useContext, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-// import gerImg from "./assets/german_flag.png";
-// import gerImg2 from "./assets/german_flag_active.png";
-// import usImg from "./assets/american_flag.png";
-// import usImg2 from "./assets/american_flag_active.png";
+import gerImg from "./assets/german_flag.png";
+import gerImg2 from "./assets/german_flag_active.png";
+import usImg from "./assets/american_flag.png";
+import usImg2 from "./assets/american_flag_active.png";
+import { LanguageContext } from "./contexts/LanguageContextProvider";
 
 export default function App() {
-  //const [page, setPage] = useState("home");
-  // const [gerFlag, setGerFlag] = useState(false);
-  // const [usFlag, setUsFlag] = useState(false);
+  const [gerFlag, setGerFlag] = useState(false);
+  const [usFlag, setUsFlag] = useState(false);
+  const context = useContext(LanguageContext);
+
   return (
     <>
       <div id="magic"></div>
       <div id="magic2">Joschka Zimdars - Web Developer</div>
       <div className="bg"></div>
       <div className="background">
-        {/* <div className="language">
+        <div className="language">
           <HStack>
             <img
               className="flag"
-              src={!gerFlag ? gerImg : gerImg2}
+              src={context?.language === "en" ? gerImg : gerImg2}
               width="35px"
               onMouseOver={() => setGerFlag(true)}
               onMouseOut={() => setGerFlag(false)}
-              onClick={() => console.log("ger")}
+              onClick={() => context?.setLanguage("de")}
             />
             <img
               className="flag"
-              src={!usFlag ? usImg : usImg2}
+              src={context?.language === "de" ? usImg : usImg2}
               width="35px"
               onMouseOver={() => setUsFlag(true)}
               onMouseOut={() => setUsFlag(false)}
-              onClick={() => console.log("us")}
+              onClick={() => context?.setLanguage("en")}
             />
           </HStack>
-        </div> */}
+        </div>
         <div className="wrapper">
           <Grid
             templateAreas={{

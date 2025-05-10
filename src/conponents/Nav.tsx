@@ -1,8 +1,12 @@
 import { HStack } from "@chakra-ui/react";
+
 import { NavLink, useLocation } from "react-router-dom";
+import { useContext } from "react";
+import { LanguageContext } from "../contexts/LanguageContextProvider";
 
 const Nav = () => {
   const location = useLocation();
+  const context = useContext(LanguageContext);
   return (
     <HStack className="nav">
       <NavLink to="/">
@@ -23,7 +27,7 @@ const Nav = () => {
               : "mirror"
           }
         >
-          Projekte
+          {context?.language === "de" ? "Projekte" : "Projects"}
         </p>
       </NavLink>
       <NavLink to="/recently">
@@ -32,7 +36,7 @@ const Nav = () => {
             location.pathname === "/recently" ? "mirror-active" : "mirror"
           }
         >
-          Aktuelles
+          {context?.language === "de" ? "Aktuelles" : "Recent work"}
         </p>
       </NavLink>
       <NavLink to="/about">
@@ -41,7 +45,7 @@ const Nav = () => {
             location.pathname === "/about" ? "mirror-active" : "mirror"
           }
         >
-          Über mich
+          {context?.language === "de" ? "Über mich" : "About"}
         </p>
       </NavLink>
     </HStack>

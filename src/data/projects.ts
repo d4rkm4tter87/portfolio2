@@ -3,7 +3,7 @@ export default [
     id: 0,
     name: "Tsumego Hero",
     img: "tsumego-hero.webp",
-    code: ["CakePHP", "MySQL", "Git", "JavaScript- und CSS-Bibliotheken"],
+    code: ["CakePHP", "MySQL", "Git", "JavaScript-Libraries"],
     link: "tsumego-hero",
   },
   {
@@ -24,7 +24,7 @@ export default [
     id: 3,
     name: "Petersen Hardraht Pruggmayer",
     img: "petersen-hardraht-pruggmayer.webp",
-    code: ["Wordpress", "MySQL", "JavaScript", "Git"],
+    code: ["Wordpress", "JavaScript", "MySQL", "Git"],
     link: "petersen-hardraht-pruggmayer",
   },
   {
@@ -46,7 +46,7 @@ export default [
     id: 7,
     name: "Betaville Bremen",
     img: "betaville-bremen.webp",
-    code: ["CakePHP", "MySQL", "ActionScript", "JavaScript", "JSON", "SVN"],
+    code: ["CakePHP", "MySQL", "ActionScript", "JavaScript", "SVN"],
     link: "betaville-bremen",
   },
   {
